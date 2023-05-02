@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB</title>
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Google font famil icin -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawesome Linki asagida -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 id="head">MEHMET KAYNAR</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="about">
+        <p>Hi there 👋 Mehmet Kaynar here! I'm a Frontend Developer.</p>
+        <br />
+        <p>Loves developing.</p>
+      </section>
+      <h3 id="projects">My Projects</h3>
+      <section class="projects">
+        <img src="./assents/computer.png" alt="" />
+        <img src="./assents/computerkahve.png" alt="" />
+        <img src="./assents/computermensch.png" alt="" />
+        <img class="image1" src="./assents/kizkulesi.jpg" alt="" />
+        <img class="image2" src="./assents/dogs.jpg" alt="" />
+      </section>
+    </main>
+
+    <footer class="contact">
+      <h3 id="contact">Contact Me</h3>
+      <nav class="media">
+        <a href="https://github.com/MehmetK34" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoidHIifQ%3D%3D%22%7D"
+          target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/mehmet-kaynar-a36a10269"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </nav>
+      <form>
+        <p>Send Message</p>
+        <label for="text"></label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Please enter your username"
+          required
+        />
+        <label for="email"></label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Please enter your E-mail"
+          required
+        />
+        <label for="message"></label>
+        <textarea
+          name="text"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Please enter your message"
+          required
+        ></textarea>
+        <label for="send"></label>
+        <button type="submit" id="send">SEND</button>
+      </form>
+      <div id="top">
+        <a href="#head">Top</a>
+      </div>
+    </footer>
+  </body>
+</html>
