@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* text-align: center; */
+}
+
+body {
+  background-color: #bebe;
+  /* background-image: bg.png; */
+}
+
+header {
+  font-family: "Rubik Vinyl", cursive;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 30px;
+  color: coral;
+  text-align: left;
+  text-indent: 5px;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+}
+
+.paths {
+  text-align: center;
+  padding: 20px;
+  display: block;
+}
+
+.software,
+.aws,
+.data,
+.saleforce,
+.cyber,
+.blockchain,
+.sdet {
+  margin-top: 20px;
+  margin-left: 80px;
+  background-color: bisque;
+  display: flex;
+  padding: 25px;
+  border-radius: 20px;
+  /* width: 60%; */
+  cursor: pointer;
+  width: 90%;
+}
+
+.software:hover,
+.aws:hover,
+.data:hover,
+.saleforce:hover,
+.cyber:hover,
+.blockchain:hover,
+.sdet:hover {
+  opacity: 0.8;
+}
+
+div .learnmore a {
+  /* display: inline-block; */
+  float: right;
+  text-decoration: none;
+  background-color: coral;
+  color: white;
+  border-radius: 20px;
+  font-size: 30px;
+  padding: 5px;
+  margin-top: 20px;
+  cursor: grab;
+}
+
+div .learnmore a:hover {
+  opacity: 0.7;
+  font-weight: 900;
+}
+
+#image {
+  width: 400px;
+  margin-right: 10px;
+}
+#image:hover {
+  width: 450px;
+}
+
+.info p {
+  text-align: left;
+  text-indent: 20px;
+}
