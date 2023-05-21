@@ -1,0 +1,119 @@
+@import "variables.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10px;
+  background-color: var(--bg);
+  border-bottom: 4px solid var(--clarusway);
+  color: white;
+  position: sticky;
+  top: 0;
+  
+}
+
+header span {
+  color: var(--clarusway);
+}
+.nav {
+  display: flex;
+  gap: 0.8rem;
+}
+
+div a {
+  color: white;
+  text-decoration: none;
+  font-size: 1, 1rem;
+  padding: 1rem;
+}
+
+/* ! MAIN KISMI */
+.img {
+  background-image: url(./asset/showcase.jpg);
+  background-size: cover; /* ekrani saga sola kapla dedik*/
+  background-position: center;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.text {
+  text-align: center;
+  color: white;
+}
+.text h1 {
+  font-size: 3rem;
+}
+.text p {
+  margin: 0 2rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/*! ARITCLE KISMI */
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1rem;
+  background-color: var(--bg);
+  color: white;
+  white-space: nowrap;
+}
+
+.article p {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.article input {
+  padding: 0.3rem;
+}
+.article button {
+  background-color: orangered;
+  color: white;
+  padding: 0.3rem;
+}
+.article button:hover {
+  cursor: pointer;
+}
+
+/*! SECTION KISMI*/
+.section {
+  display: flex;
+  gap: 1rem;
+  font-size: 14px;
+  text-align: center;
+  margin: 1.2rem;
+  margin-bottom: 40%;
+}
+
+.section img {
+  width: 20%;
+}
+
+/*! FOOTER KISMI*/
+
+footer {
+  text-align: center;
+  background-color: var(--bg);
+  color: white;
+  padding: 2rem;
+  height: 15vh;
+  
+}
+
+footer img {
+  width: 18rem;
+
+}

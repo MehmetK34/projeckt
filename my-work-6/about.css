@@ -1,0 +1,99 @@
+@import "variables.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10px;
+  background-color: var(--bg);
+  border-bottom: 4px solid var(--clarusway);
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+header span {
+  color: var(--clarusway);
+}
+.nav {
+  display: flex;
+  gap: 0.8rem;
+}
+
+div a {
+  color: white;
+  text-decoration: none;
+  font-size: 1, 1rem;
+  padding: 1rem;
+}
+
+/*! ARITCLE KISMI */
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1rem;
+  background-color: var(--bg);
+  color: white;
+  white-space: nowrap;
+}
+
+.article p {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.article input {
+  padding: 0.3rem;
+}
+.article button {
+  background-color: orangered;
+  color: white;
+  padding: 0.3rem;
+}
+.article button:hover {
+  cursor: pointer;
+}
+
+/*! MAIN KISMI*/
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 3rem; /* ikisinin arasini actik paragraflarin*/
+  line-height: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  margin-bottom: 40%;
+}
+
+.text {
+  background-color: var(--bg);
+  color: white;
+}
+.par {
+  margin-top: 1rem;
+}
+.par2 {
+  height: 270px;
+}
+
+/*! FOOTER KISMI*/
+
+footer {
+  text-align: center;
+  background-color: var(--bg);
+  color: white;
+  padding: 2rem;
+  height: 15vh;
+}
+
+footer img {
+  width: 18rem;
+}

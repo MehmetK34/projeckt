@@ -1,0 +1,121 @@
+@import "variables.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10px;
+  background-color: var(--bg);
+  border-bottom: 4px solid var(--clarusway);
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+header span {
+  color: var(--clarusway);
+}
+.nav {
+  display: flex;
+  gap: 0.8rem;
+}
+
+div a {
+  color: white;
+  text-decoration: none;
+  font-size: 1, 1rem;
+  padding: 1rem;
+}
+
+/*! ARITCLE KISMI */
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1rem;
+  background-color: var(--bg);
+  color: white;
+  white-space: nowrap;
+}
+
+.article p {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.article input {
+  padding: 0.3rem;
+}
+.article button {
+  background-color: orangered;
+  color: white;
+  padding: 0.3rem;
+}
+.article button:hover {
+  cursor: pointer;
+}
+
+/*! MAIN KISMi*/
+
+.main {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 40%;
+}
+/* .right {
+  display: flex;
+  flex-direction: column;
+ 
+} */
+.text {
+  border: 1px solid gray;
+  background-color: rgb(243, 241, 237);
+  padding: 1rem;
+  margin-top: 0.2rem;
+}
+
+.left {
+  margin: 1rem 0 0 1rem;
+  flex: 2;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: var(--bg);
+  margin: 1rem 1rem 0 0;
+  color: white;
+  padding: 1rem 2rem 0.5rem;
+  width: 25rem;
+}
+.right button {
+  background-color: orangered;
+  color: white;
+  padding: 0.5rem;
+  width: 50px;
+  margin-top: 0.5rem;
+}
+.right h3 {
+  margin-bottom: 15px;
+}
+
+/*! FOOTER KISMI*/
+
+footer {
+  text-align: center;
+  background-color: var(--bg);
+  color: white;
+  padding: 2rem;
+  height: 15vh;
+}
+
+footer img {
+  width: 18rem;
+}
