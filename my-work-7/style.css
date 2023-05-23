@@ -4,6 +4,54 @@
   box-sizing: border-box;
 }
 
+.container {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-1 {
+  background-color: aqua;
+  grid-area: one;
+}
+.item-2 {
+  background-color: yellowgreen;
+  grid-area: two;
+}
+.item-3 {
+  background-color: salmon;
+  grid-area: three;
+}
+.item-4 {
+  background-color: indigo;
+  grid-area: four;
+}
+.item-5 {
+  background-color: olive;
+  grid-area: five;
+}
+.item-6 {
+  background-color: palevioletred;
+  grid-area: six;
+}
+.item-7 {
+  background-color: lemonchiffon;
+  grid-area: seven;
+}
+.item-8 {
+  background-color: crimson;
+  grid-area: eight;
+}
+.item-9 {
+  background-color: teal;
+  grid-area: nine;
+}
+.item-10 {
+  background-color: brown;
+  grid-area: ten;
+}
+
 @media screen and (min-width: 600px) {
   .container {
     display: grid;
