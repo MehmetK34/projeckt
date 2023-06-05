@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.road {
+  position: absolute;
+  height: 500px;
+  width: 800px;
+  background: url("./img/back.jpg");
+  background-size: cover;
+
+  animation-name: drehenroad;
+  animation-direction: normal;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.car {
+  width: 420px;
+  height: 150px;
+  background: url("./img/car.png");
+  position: absolute;
+  top: 245px;
+  left: 90px;
+}
+
+.wheel {
+  position: absolute;
+  top: 82px;
+  left: 42px;
+  height: 64px;
+  width: 64px;
+  background: url("./img/wheel.png");
+
+  animation-name: drehen;
+  animation-direction: normal;
+  animation-duration: 2s; /*tekerin hizi*/
+  animation-iteration-count: infinite; /*durmadan donmeis icin infinitve*/
+  animation-timing-function: linear;
+}
+
+.wheel:nth-child(1) {
+  left: 42px;
+}
+.wheel:nth-child(2) {
+  left: 310px;
+}
+
+@keyframes drehen {
+  from {
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes drehenroad {
+  from {
+  }
+  to {
+    background-position: -700px 0;
+  }
+}
